@@ -1,5 +1,5 @@
 # kafkajs
-
+## Topic adınız newstopic olmalı eğer değiştirmek isterseniz kodda değiştirmeniz gerekecek 
 # topic oluşturma : docker exec -it kafka-kafka-1-1 kafka-topics --create --topic newstopic --partitions 1 --replication-factor 2 --bootstrap-server kafka-kafka-1-1:29092
 # ayağa kaldırma : docker-compose -f docker-compose.yml up -d
 # topic silme :  docker exec -it kafka-kafka-1-1 kafka-topics --delete --topic newstopic --bootstrap-server kafka-kafka-1-1:29092
