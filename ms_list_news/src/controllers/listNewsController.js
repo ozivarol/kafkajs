@@ -1,4 +1,3 @@
-const kafkaConsumerConnection = require("../scripts/utils/kafkaConsumerConnection");
 const hs = require("http-status");
 const { kafkaConsumer } = require("../scripts/utils/kafkaConsumerConnection2");
 

@@ -118,10 +118,9 @@ const AddNews = () => {
         </form>
       </div>
 
-      {/* Footer */}
       <div className="footer">
         <footer className="bg-blue-500 p-4 text-white text-center">
-          <p>En güncel haberler sitesi</p>
+          <p>&copy; 2023 Haberler Sitesi</p>
         </footer>
       </div>
     </div>

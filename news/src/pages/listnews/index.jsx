@@ -46,7 +46,7 @@ function ListNews({ newsData }) {
 
       <div className="footer">
         <footer className="bg-blue-500 p-4 text-white text-center">
-          <p>En güncel haberler sitesi</p>
+          <p>&copy; 2023 Haberler Sitesi</p>
         </footer>
       </div>
     </div>
@@ -55,7 +55,6 @@ function ListNews({ newsData }) {
 
 export async function getServerSideProps() {
   try {
-    // Sunucu tarafından haber verilerini çekmek için GET isteği gönderin
     const response = await axios.get("http://localhost:5050/listnews/listNews");
 
     if (response.data && Array.isArray(response.data)) {
